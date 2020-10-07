@@ -3,7 +3,7 @@ Encode/decode typed structures using a regular expression DSL.
 
 Simple HTML/XML reader/generator in a few lines of code.
 
-```
+```purescript
 -- Abstract syntax of our Document (simplified)
 data Node = Node String (Array Node)
           | Text String
@@ -33,7 +33,7 @@ minimal =
 
 ```
 
-```
+```purescript
 > import Data.Tuple (Tuple(..))
 > import Main
 > import Rady
